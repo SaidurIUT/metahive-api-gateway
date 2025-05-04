@@ -20,7 +20,9 @@ public class SecurityConfig {
             "/swagger-ui/**",
             "/v3/api-docs/**",
             "/swagger-resources/**",
-            "/office-service/v3/api-docs"
+            "/office-service/v3/api-docs",
+            "/**"
+        
     };
 
     // Security Filter Chain Configuration
